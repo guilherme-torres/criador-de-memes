@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffd993;
+}
+
+.container {
+    width: min(600px, 90vw);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.text-input {
+    height: 30px;
+    font-size: 1em;
+    padding-left: 4px;
+}
+
+.font-options {
+    display: flex;
+}
+
+.font-size-input {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.canvas {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.button {
+    height: 30px;
+    cursor: pointer;
+}
+
+.download-button {
+    visibility: hidden;
+}
+
+.download-button--visible {
+    visibility: visible;
+}
